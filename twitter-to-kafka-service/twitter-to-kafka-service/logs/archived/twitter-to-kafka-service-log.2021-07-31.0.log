@@ -1,0 +1,89 @@
+2021-07-31 14:44:06 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests], using SpringBootContextLoader
+2021-07-31 14:44:06 [main] INFO  o.s.t.c.s.AbstractContextLoader - Could not detect default resource locations for test class [com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-07-31 14:44:06 [main] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests]: TwitterToKafkaServiceApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-07-31 14:44:06 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplication for test class com.microservices.demo.twitter.to.kafka.service.TwitterToKafkaServiceApplicationTests
+2021-07-31 14:44:06 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-07-31 14:44:06 [main] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@28d6290, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6ca0256d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@5ef0d29e, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@38f57b3d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@51850751, org.springframework.test.context.event.EventPublishingTestExecutionListener@3ce3db41, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@64df9a61, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@77602954, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@e260766, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2c3dec30, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@34a97744, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4275c20c]
+2021-07-31 14:44:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Starting TwitterToKafkaServiceApplicationTests using Java 11.0.7 on swastiks-MBP.users.condointernet.net with PID 23502 (started by swastiksabat in /Users/swastiksabat/Downloads/microservices-demo/twitter-to-kafka-service)
+2021-07-31 14:44:06 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - No active profile set, falling back to default profiles: default
+2021-07-31 14:44:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplicationTests - Started TwitterToKafkaServiceApplicationTests in 0.705 seconds (JVM running for 1.755)
+2021-07-31 14:44:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started
+2021-07-31 14:44:07 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2021-07-31 14:44:07 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-07-31 14:44:07 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - started filtering keywords
+2021-07-31 14:44:07 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - closing twitter stream
+2021-07-31 14:44:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.7 on swastiks-MBP.users.condointernet.net with PID 23628 (/Users/swastiksabat/Downloads/microservices-demo/twitter-to-kafka-service/target/classes started by swastiksabat in /Users/swastiksabat/Downloads/microservices-demo/twitter-to-kafka-service)
+2021-07-31 14:44:45 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-07-31 14:44:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.748 seconds (JVM running for 1.252)
+2021-07-31 14:44:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started
+2021-07-31 14:44:46 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2021-07-31 14:44:46 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-07-31 14:44:46 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - started filtering keywords
+2021-07-31 14:44:54 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-07-31 14:44:54 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-07-31 14:44:54 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:44:56 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:20 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:25 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:26 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:28 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:33 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:36 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:42 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text
+2021-07-31 14:45:52 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - closing twitter stream
+2021-07-31 14:47:51 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.7 on swastiks-MBP.users.condointernet.net with PID 24198 (/Users/swastiksabat/Downloads/microservices-demo/twitter-to-kafka-service/target/classes started by swastiksabat in /Users/swastiksabat/Downloads/microservices-demo/twitter-to-kafka-service)
+2021-07-31 14:47:51 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-07-31 14:47:52 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.834 seconds (JVM running for 1.297)
+2021-07-31 14:47:52 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started
+2021-07-31 14:47:52 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2021-07-31 14:47:52 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-07-31 14:47:52 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - started filtering keywords
+2021-07-31 14:47:53 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-07-31 14:47:53 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-07-31 14:47:53 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with textRT @Azure: #Azure offers choices when deploying any #Java app built using any app server and any framework. Pick a destination with this si…
+2021-07-31 14:47:54 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text@WatchMarquee @Cubs We will miss you Java.
+2021-07-31 14:48:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with textランキング:6位「DIY・工具・ガーデン」(06:48)
+
+山善 エアコン室外機用アルミエアコンガード(ひさし付き) 【マグネットタイ
+
+価格:￥1,798
+レビュー数:341
+https://t.co/wygGsSQLDK
+2021-07-31 14:48:07 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text❗ランキング：19位❗(ゲーミングPCデバイス 人気・おすすめランキング)
+
+「K70 LUX CherryMX Red -日本語キーボード- CH-9101020-JP」
+メーカ:Corsair
+
+価格:¥13,574✨
+🔥売り切れ間近🔥(06:48)
+
+https://t.co/mAsUwCCjhK
+2021-07-31 14:48:14 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with text@VolumePrintcess How much fun was that this week?  I love the Java Pit!
+2021-07-31 14:48:15 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - closing twitter stream
+2021-07-31 17:59:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Starting TwitterToKafkaServiceApplication using Java 11.0.7 on swastiks-MBP.users.condointernet.net with PID 40151 (/Users/swastiksabat/Downloads/microservices-demo/twitter-to-kafka-service/target/classes started by swastiksabat in /Users/swastiksabat/Downloads/microservices-demo/twitter-to-kafka-service)
+2021-07-31 17:59:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - No active profile set, falling back to default profiles: default
+2021-07-31 17:59:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Started TwitterToKafkaServiceApplication in 0.824 seconds (JVM running for 1.337)
+2021-07-31 17:59:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - Application started
+2021-07-31 17:59:41 [main] INFO  c.m.d.t.t.k.s.TwitterToKafkaServiceApplication - [Java, Microservices, Kafka, Elasticsearch]
+2021-07-31 17:59:41 [Twitter Stream consumer /  [1][initializing]] INFO  twitter4j.TwitterStreamImpl - Establishing connection.
+2021-07-31 17:59:41 [main] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - started filtering keywords
+2021-07-31 17:59:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Connection established.
+2021-07-31 17:59:48 [Twitter Stream consumer /  [1][Establishing connection]] INFO  twitter4j.TwitterStreamImpl - Receiving status stream.
+2021-07-31 17:59:48 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with textRT @sayalook: Do u know what keep me away from social media and let me focus on work?
+
+My Client !!!!
+
+#DEVCommunity
+#coding #webdevelopers…
+2021-07-31 17:59:49 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with textDesarrollador Java Sr o Ssr - Rel de dependencia - Buenos Aires, Buenos Aires https://t.co/qDKYJhQXDf
+2021-07-31 17:59:50 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with textRT @sayalook: Do u know what keep me away from social media and let me focus on work?
+
+My Client !!!!
+
+#DEVCommunity
+#coding #webdevelopers…
+2021-07-31 17:59:52 [Twitter4J Async Dispatcher[0]] INFO  c.m.d.t.t.k.s.l.TwitterKafkaStatusListener - Twitter status with textRT @Philip_D_Hughes: Software developers' perceived race may affect success of their proposals: study - Toronto Star https://t.co/wmDGX3vRO…
+2021-07-31 17:59:56 [SpringApplicationShutdownHook] INFO  c.m.d.t.t.k.s.r.i.TwitterKafkaStreamRunner - closing twitter stream
