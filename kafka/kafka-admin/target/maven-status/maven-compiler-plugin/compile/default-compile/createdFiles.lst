@@ -1,0 +1,4 @@
+com/microservices/demo/common/exception/KafkaClientException.class
+com/microservices/demo/common/client/KafkaAdminClient.class
+com/microservices/demo/kafka/admin/config/KafkaAdminConfig.class
+com/microservices/demo/kafka/admin/config/WebClientConfig.class
