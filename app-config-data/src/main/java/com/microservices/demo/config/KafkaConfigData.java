@@ -8,20 +8,28 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 @ConfigurationProperties(prefix = "kafka-config")
 public class KafkaConfigData {
-	private String bootstrapServer;
+	private String bootstrapServers;
 	private String schemaRegistryUrlKey;
 	private String schemaRegistryUrl;
-	private String topicName;;
-	private List<String> topicNameToCreate;
+	private String topicName;
+	private List<String> topicNamesToCreate;
 	private Integer numOfPartitions;
 	private Short replicationFactor;
 
-	public String getBootstrapServer() {
-		return bootstrapServer;
+	public String getBootstrapServers() {
+		return bootstrapServers;
 	}
 
-	public void setBootstrapServer(String bootstrapServer) {
-		this.bootstrapServer = bootstrapServer;
+	public List<String> getTopicNamesToCreate() {
+		return topicNamesToCreate;
+	}
+
+	public void setTopicNamesToCreate(List<String> topicNamesToCreate) {
+		this.topicNamesToCreate = topicNamesToCreate;
+	}
+
+	public void setBootstrapServers(String bootstrapServers) {
+		this.bootstrapServers = bootstrapServers;
 	}
 
 	public String getSchemaRegistryUrlKey() {
@@ -46,14 +54,6 @@ public class KafkaConfigData {
 
 	public void setTopicName(String topicName) {
 		this.topicName = topicName;
-	}
-
-	public List<String> getTopicNameToCreate() {
-		return topicNameToCreate;
-	}
-
-	public void setTopicNameToCreate(List<String> topicNameToCreate) {
-		this.topicNameToCreate = topicNameToCreate;
 	}
 
 	public Integer getNumOfPartitions() {
